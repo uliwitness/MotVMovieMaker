@@ -11,6 +11,11 @@
 		55BBFF1022994AFA00F2DAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */; };
 		55BBFF1322994AFA00F2DAC9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */; };
 		55BBFF1F22994AFB00F2DAC9 /* MotVMovieMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF1E22994AFB00F2DAC9 /* MotVMovieMakerTests.swift */; };
+		55BBFF2A2299505900F2DAC9 /* Finder.icns in Resources */ = {isa = PBXBuildFile; fileRef = 55BBFF292299505900F2DAC9 /* Finder.icns */; };
+		55BBFF2C229953D400F2DAC9 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF2B229953D400F2DAC9 /* BoxView.swift */; };
+		55BBFF2E22995A1100F2DAC9 /* LineIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */; };
+		55BBFF3022995F5400F2DAC9 /* CodeBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */; };
+		55BBFF32229966DC00F2DAC9 /* CodeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF31229966DC00F2DAC9 /* CodeLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 		55BBFF1A22994AFB00F2DAC9 /* MotVMovieMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotVMovieMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BBFF1E22994AFB00F2DAC9 /* MotVMovieMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotVMovieMakerTests.swift; sourceTree = "<group>"; };
 		55BBFF2022994AFB00F2DAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BBFF292299505900F2DAC9 /* Finder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Finder.icns; sourceTree = "<group>"; };
+		55BBFF2B229953D400F2DAC9 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineIndicatorView.swift; sourceTree = "<group>"; };
+		55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBoxController.swift; sourceTree = "<group>"; };
+		55BBFF31229966DC00F2DAC9 /* CodeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +85,15 @@
 			isa = PBXGroup;
 			children = (
 				55BBFF0D22994AF400F2DAC9 /* AppDelegate.swift */,
+				55BBFF31229966DC00F2DAC9 /* CodeLine.swift */,
+				55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */,
+				55BBFF2B229953D400F2DAC9 /* BoxView.swift */,
+				55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */,
 				55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */,
 				55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */,
 				55BBFF1422994AFA00F2DAC9 /* Info.plist */,
 				55BBFF1522994AFA00F2DAC9 /* MotVMovieMaker.entitlements */,
+				55BBFF292299505900F2DAC9 /* Finder.icns */,
 			);
 			path = MotVMovieMaker;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BBFF2A2299505900F2DAC9 /* Finder.icns in Resources */,
 				55BBFF1022994AFA00F2DAC9 /* Assets.xcassets in Resources */,
 				55BBFF1322994AFA00F2DAC9 /* MainMenu.xib in Resources */,
 			);
@@ -192,7 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BBFF2E22995A1100F2DAC9 /* LineIndicatorView.swift in Sources */,
+				55BBFF32229966DC00F2DAC9 /* CodeLine.swift in Sources */,
 				55BBFF0E22994AF400F2DAC9 /* AppDelegate.swift in Sources */,
+				55BBFF3022995F5400F2DAC9 /* CodeBoxController.swift in Sources */,
+				55BBFF2C229953D400F2DAC9 /* BoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
