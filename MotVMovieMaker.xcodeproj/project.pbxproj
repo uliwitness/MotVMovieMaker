@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55BBFF0E22994AF400F2DAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF0D22994AF400F2DAC9 /* AppDelegate.swift */; };
+		55BBFF1022994AFA00F2DAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */; };
+		55BBFF1322994AFA00F2DAC9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */; };
+		55BBFF1F22994AFB00F2DAC9 /* MotVMovieMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF1E22994AFB00F2DAC9 /* MotVMovieMakerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55BBFF1B22994AFB00F2DAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BBFF0222994AF400F2DAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BBFF0922994AF400F2DAC9;
+			remoteInfo = MotVMovieMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55BBFF0A22994AF400F2DAC9 /* MotVMovieMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotVMovieMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BBFF0D22994AF400F2DAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55BBFF1222994AFA00F2DAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55BBFF1422994AFA00F2DAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BBFF1522994AFA00F2DAC9 /* MotVMovieMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotVMovieMaker.entitlements; sourceTree = "<group>"; };
+		55BBFF1A22994AFB00F2DAC9 /* MotVMovieMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotVMovieMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BBFF1E22994AFB00F2DAC9 /* MotVMovieMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotVMovieMakerTests.swift; sourceTree = "<group>"; };
+		55BBFF2022994AFB00F2DAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BBFF0722994AF400F2DAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BBFF1722994AFB00F2DAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BBFF0122994AF400F2DAC9 = {
+			isa = PBXGroup;
+			children = (
+				55BBFF0C22994AF400F2DAC9 /* MotVMovieMaker */,
+				55BBFF1D22994AFB00F2DAC9 /* MotVMovieMakerTests */,
+				55BBFF0B22994AF400F2DAC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BBFF0B22994AF400F2DAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BBFF0A22994AF400F2DAC9 /* MotVMovieMaker.app */,
+				55BBFF1A22994AFB00F2DAC9 /* MotVMovieMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BBFF0C22994AF400F2DAC9 /* MotVMovieMaker */ = {
+			isa = PBXGroup;
+			children = (
+				55BBFF0D22994AF400F2DAC9 /* AppDelegate.swift */,
+				55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */,
+				55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */,
+				55BBFF1422994AFA00F2DAC9 /* Info.plist */,
+				55BBFF1522994AFA00F2DAC9 /* MotVMovieMaker.entitlements */,
+			);
+			path = MotVMovieMaker;
+			sourceTree = "<group>";
+		};
+		55BBFF1D22994AFB00F2DAC9 /* MotVMovieMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				55BBFF1E22994AFB00F2DAC9 /* MotVMovieMakerTests.swift */,
+				55BBFF2022994AFB00F2DAC9 /* Info.plist */,
+			);
+			path = MotVMovieMakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BBFF0922994AF400F2DAC9 /* MotVMovieMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BBFF2322994AFB00F2DAC9 /* Build configuration list for PBXNativeTarget "MotVMovieMaker" */;
+			buildPhases = (
+				55BBFF0622994AF400F2DAC9 /* Sources */,
+				55BBFF0722994AF400F2DAC9 /* Frameworks */,
+				55BBFF0822994AF400F2DAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotVMovieMaker;
+			productName = MotVMovieMaker;
+			productReference = 55BBFF0A22994AF400F2DAC9 /* MotVMovieMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55BBFF1922994AFB00F2DAC9 /* MotVMovieMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BBFF2622994AFB00F2DAC9 /* Build configuration list for PBXNativeTarget "MotVMovieMakerTests" */;
+			buildPhases = (
+				55BBFF1622994AFB00F2DAC9 /* Sources */,
+				55BBFF1722994AFB00F2DAC9 /* Frameworks */,
+				55BBFF1822994AFB00F2DAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BBFF1C22994AFB00F2DAC9 /* PBXTargetDependency */,
+			);
+			name = MotVMovieMakerTests;
+			productName = MotVMovieMakerTests;
+			productReference = 55BBFF1A22994AFB00F2DAC9 /* MotVMovieMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BBFF0222994AF400F2DAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Uli Kusterer";
+				TargetAttributes = {
+					55BBFF0922994AF400F2DAC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					55BBFF1922994AFB00F2DAC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 55BBFF0922994AF400F2DAC9;
+					};
+				};
+			};
+			buildConfigurationList = 55BBFF0522994AF400F2DAC9 /* Build configuration list for PBXProject "MotVMovieMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55BBFF0122994AF400F2DAC9;
+			productRefGroup = 55BBFF0B22994AF400F2DAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BBFF0922994AF400F2DAC9 /* MotVMovieMaker */,
+				55BBFF1922994AFB00F2DAC9 /* MotVMovieMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55BBFF0822994AF400F2DAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BBFF1022994AFA00F2DAC9 /* Assets.xcassets in Resources */,
+				55BBFF1322994AFA00F2DAC9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BBFF1822994AFB00F2DAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BBFF0622994AF400F2DAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BBFF0E22994AF400F2DAC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BBFF1622994AFB00F2DAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BBFF1F22994AFB00F2DAC9 /* MotVMovieMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BBFF1C22994AFB00F2DAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BBFF0922994AF400F2DAC9 /* MotVMovieMaker */;
+			targetProxy = 55BBFF1B22994AFB00F2DAC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BBFF1222994AFA00F2DAC9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55BBFF2122994AFB00F2DAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55BBFF2222994AFB00F2DAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		55BBFF2422994AFB00F2DAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotVMovieMaker/MotVMovieMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCKXACKVZS;
+				INFOPLIST_FILE = MotVMovieMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.MotVMovieMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55BBFF2522994AFB00F2DAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotVMovieMaker/MotVMovieMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCKXACKVZS;
+				INFOPLIST_FILE = MotVMovieMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.MotVMovieMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		55BBFF2722994AFB00F2DAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCKXACKVZS;
+				INFOPLIST_FILE = MotVMovieMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.MotVMovieMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotVMovieMaker.app/Contents/MacOS/MotVMovieMaker";
+			};
+			name = Debug;
+		};
+		55BBFF2822994AFB00F2DAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCKXACKVZS;
+				INFOPLIST_FILE = MotVMovieMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevoidsoftware.MotVMovieMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotVMovieMaker.app/Contents/MacOS/MotVMovieMaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BBFF0522994AF400F2DAC9 /* Build configuration list for PBXProject "MotVMovieMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BBFF2122994AFB00F2DAC9 /* Debug */,
+				55BBFF2222994AFB00F2DAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BBFF2322994AFB00F2DAC9 /* Build configuration list for PBXNativeTarget "MotVMovieMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BBFF2422994AFB00F2DAC9 /* Debug */,
+				55BBFF2522994AFB00F2DAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BBFF2622994AFB00F2DAC9 /* Build configuration list for PBXNativeTarget "MotVMovieMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BBFF2722994AFB00F2DAC9 /* Debug */,
+				55BBFF2822994AFB00F2DAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55BBFF0222994AF400F2DAC9 /* Project object */;
+}
