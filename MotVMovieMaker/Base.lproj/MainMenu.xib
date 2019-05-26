@@ -21,9 +21,20 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <customObject id="Hg7-oK-A1s" customClass="CodeBoxController" customModule="MotVMovieMaker" customModuleProvider="target">
             <connections>
+                <outlet property="codeBoxView" destination="x1U-mo-Blt" id="Tm6-hM-7mn"/>
                 <outlet property="codeTextField" destination="5A2-Lg-JhP" id="qWk-Qd-0Wl"/>
                 <outlet property="lineIndicatorTopConstraint" destination="282-qy-xFg" id="CaF-hd-1K5"/>
                 <outlet property="lineIndicatorView" destination="zQK-5T-ix1" id="ZWf-Ui-cHP"/>
+                <outlet property="terminal" destination="DFm-Ta-dmp" id="XiE-J1-tu9"/>
+            </connections>
+        </customObject>
+        <customObject id="DFm-Ta-dmp" customClass="TerminalWindowBoxController" customModule="MotVMovieMaker" customModuleProvider="target">
+            <connections>
+                <outlet property="codeTextField" destination="5A2-Lg-JhP" id="94k-64-dk1"/>
+                <outlet property="lineIndicatorTopConstraint" destination="282-qy-xFg" id="dIr-2Q-NJZ"/>
+                <outlet property="lineIndicatorView" destination="zQK-5T-ix1" id="Xvw-1t-gNm"/>
+                <outlet property="terminalBoxView" destination="3Cm-1H-bhd" id="VRp-qt-tlM"/>
+                <outlet property="terminalTextField" destination="W6i-Lc-FjX" id="iG9-ju-TuZ"/>
             </connections>
         </customObject>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
@@ -706,10 +717,10 @@
                                     <rect key="frame" x="20" y="297" width="128" height="128"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Finder" id="7Ac-yL-VKV"/>
                                 </imageView>
-                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="x1U-mo-Blt" customClass="BoxView" customModule="MotVMovieMaker" customModuleProvider="target">
+                                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1U-mo-Blt" customClass="BoxView" customModule="MotVMovieMaker" customModuleProvider="target">
                                     <rect key="frame" x="168" y="283" width="189" height="155"/>
                                     <subviews>
-                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="zQK-5T-ix1" customClass="LineIndicatorView" customModule="MotVMovieMaker" customModuleProvider="target">
+                                        <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQK-5T-ix1" customClass="LineIndicatorView" customModule="MotVMovieMaker" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="85" width="188" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="78n-a7-j19"/>
@@ -749,11 +760,45 @@ func main() {
                                         <constraint firstItem="Yjm-KE-OGE" firstAttribute="top" secondItem="x1U-mo-Blt" secondAttribute="top" constant="5" id="zfB-v6-p7z"/>
                                     </constraints>
                                 </customView>
+                                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Cm-1H-bhd" customClass="TerminalWindowBoxView" customModule="MotVMovieMaker" customModuleProvider="target">
+                                    <rect key="frame" x="248" y="261" width="369" height="117"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J40-s8-uDl">
+                                            <rect key="frame" x="155" y="95" width="59" height="17"/>
+                                            <textFieldCell key="cell" allowsUndo="NO" title="Terminal" id="o2L-Bl-LzC">
+                                                <font key="font" metaFont="systemSemibold" size="13"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.97918366140000002" green="0.97918366140000002" blue="0.97918366140000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6i-Lc-FjX">
+                                            <rect key="frame" x="18" y="20" width="333" height="57"/>
+                                            <textFieldCell key="cell" allowsUndo="NO" id="g9p-Nb-qPk">
+                                                <font key="font" size="13" name="PanicSans"/>
+                                                <string key="title">Last login: Sun May 26 10:31:01 on ttys001
+supermodel:~ uli$ 
+</string>
+                                                <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" red="0.97918366140000002" green="0.97918366140000002" blue="0.97918366140000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="W6i-Lc-FjX" firstAttribute="top" secondItem="3Cm-1H-bhd" secondAttribute="top" constant="40" id="DeZ-LF-UFb"/>
+                                        <constraint firstAttribute="bottom" secondItem="W6i-Lc-FjX" secondAttribute="bottom" constant="20" id="KJv-PB-jYQ"/>
+                                        <constraint firstItem="J40-s8-uDl" firstAttribute="top" secondItem="3Cm-1H-bhd" secondAttribute="top" constant="5" id="KR8-Vg-l7u"/>
+                                        <constraint firstItem="J40-s8-uDl" firstAttribute="centerX" secondItem="3Cm-1H-bhd" secondAttribute="centerX" id="RIQ-WP-5dK"/>
+                                        <constraint firstItem="W6i-Lc-FjX" firstAttribute="leading" secondItem="3Cm-1H-bhd" secondAttribute="leading" constant="20" id="XMS-VY-II5"/>
+                                        <constraint firstAttribute="trailing" secondItem="W6i-Lc-FjX" secondAttribute="trailing" constant="20" id="fg3-ws-lt9"/>
+                                    </constraints>
+                                </customView>
                             </subviews>
                             <constraints>
                                 <constraint firstItem="x1U-mo-Blt" firstAttribute="top" secondItem="oSZ-Qc-glc" secondAttribute="top" constant="20" id="0h9-Mb-gh8"/>
+                                <constraint firstItem="3Cm-1H-bhd" firstAttribute="top" secondItem="x1U-mo-Blt" secondAttribute="top" constant="60" id="AbP-dX-E8N"/>
                                 <constraint firstItem="R7k-8d-kgz" firstAttribute="leading" secondItem="oSZ-Qc-glc" secondAttribute="leading" constant="20" id="IEh-U1-IIK"/>
                                 <constraint firstItem="x1U-mo-Blt" firstAttribute="leading" secondItem="R7k-8d-kgz" secondAttribute="trailing" constant="20" id="b5d-kz-ULR"/>
+                                <constraint firstItem="3Cm-1H-bhd" firstAttribute="leading" secondItem="x1U-mo-Blt" secondAttribute="leading" constant="80" id="eD3-lA-MVL"/>
                                 <constraint firstItem="x1U-mo-Blt" firstAttribute="centerY" secondItem="R7k-8d-kgz" secondAttribute="centerY" id="m60-gq-8oW"/>
                             </constraints>
                         </view>

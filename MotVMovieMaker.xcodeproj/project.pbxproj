@@ -16,6 +16,8 @@
 		55BBFF2E22995A1100F2DAC9 /* LineIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */; };
 		55BBFF3022995F5400F2DAC9 /* CodeBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */; };
 		55BBFF32229966DC00F2DAC9 /* CodeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF31229966DC00F2DAC9 /* CodeLine.swift */; };
+		55BBFF34229A855F00F2DAC9 /* TerminalWindowBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF33229A855F00F2DAC9 /* TerminalWindowBoxView.swift */; };
+		55BBFF36229A911B00F2DAC9 /* TerminalWindowBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBFF35229A911B00F2DAC9 /* TerminalWindowBoxController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineIndicatorView.swift; sourceTree = "<group>"; };
 		55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBoxController.swift; sourceTree = "<group>"; };
 		55BBFF31229966DC00F2DAC9 /* CodeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLine.swift; sourceTree = "<group>"; };
+		55BBFF33229A855F00F2DAC9 /* TerminalWindowBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWindowBoxView.swift; sourceTree = "<group>"; };
+		55BBFF35229A911B00F2DAC9 /* TerminalWindowBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWindowBoxController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				55BBFF31229966DC00F2DAC9 /* CodeLine.swift */,
 				55BBFF2F22995F5400F2DAC9 /* CodeBoxController.swift */,
 				55BBFF2B229953D400F2DAC9 /* BoxView.swift */,
+				55BBFF35229A911B00F2DAC9 /* TerminalWindowBoxController.swift */,
+				55BBFF33229A855F00F2DAC9 /* TerminalWindowBoxView.swift */,
 				55BBFF2D22995A1100F2DAC9 /* LineIndicatorView.swift */,
 				55BBFF0F22994AFA00F2DAC9 /* Assets.xcassets */,
 				55BBFF1122994AFA00F2DAC9 /* MainMenu.xib */,
@@ -210,7 +216,9 @@
 			files = (
 				55BBFF2E22995A1100F2DAC9 /* LineIndicatorView.swift in Sources */,
 				55BBFF32229966DC00F2DAC9 /* CodeLine.swift in Sources */,
+				55BBFF34229A855F00F2DAC9 /* TerminalWindowBoxView.swift in Sources */,
 				55BBFF0E22994AF400F2DAC9 /* AppDelegate.swift in Sources */,
+				55BBFF36229A911B00F2DAC9 /* TerminalWindowBoxController.swift in Sources */,
 				55BBFF3022995F5400F2DAC9 /* CodeBoxController.swift in Sources */,
 				55BBFF2C229953D400F2DAC9 /* BoxView.swift in Sources */,
 			);
