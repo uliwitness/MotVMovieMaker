@@ -64,7 +64,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	}
 	
 	func application(_ application: NSApplication, open urls: [URL]) {
-		let lineDescs = try! String(contentsOf: urls.first!, encoding: .utf8).split(separator: "\n")
+		guard let url = urls.first else { return }
+		
+		NSDocumentController.shared.noteNewRecentDocumentURL(url)
+		
+		let lineDescs = try! String(contentsOf: url, encoding: .utf8).split(separator: "\n")
 		var parentLines = [CodeLine]()
 		
 		lineDescs.forEach { line in
